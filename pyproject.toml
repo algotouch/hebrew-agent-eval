@@ -1,0 +1,59 @@
+[project]
+name = "hebrew-agent-eval"
+version = "0.1.0"
+description = "Hebrew-language evaluation harness for LLMs and AI agents — tests how well Claude, GPT-4, Gemini, and other models handle real-world Israeli business prompts."
+authors = [
+    { name = "Agentics by Quatro", email = "quatro.agency4@gmail.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+keywords = [
+    "hebrew",
+    "llm",
+    "evaluation",
+    "benchmark",
+    "anthropic",
+    "openai",
+    "agents",
+    "rtl",
+    "israeli",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Hebrew",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "anthropic>=0.34.0",
+    "openai>=1.40.0",
+    "pydantic>=2.0",
+    "pyyaml>=6.0",
+    "rich>=13.0",
+    "typer>=0.12",
+]
+
+[project.urls]
+Homepage = "https://github.com/algotouch/hebrew-agent-eval"
+Repository = "https://github.com/algotouch/hebrew-agent-eval"
+Issues = "https://github.com/algotouch/hebrew-agent-eval/issues"
+"Author Site" = "https://agentics.quatro.co.il"
+
+[project.scripts]
+hebrew-agent-eval = "hebrew_agent_eval.cli:app"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+hebrew_agent_eval = ["tests/**/*.yaml"]

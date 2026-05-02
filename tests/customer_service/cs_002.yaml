@@ -1,0 +1,13 @@
+id: cs_002
+input: |
+  היי אחי מה קורה, יש לי שאלה לגבי המנוי שלי. אני משלם 199 ש"ח לחודש
+  ובא לי לדעת מה אני בעצם מקבל בעדם. תוכל להסביר?
+expected_actions:
+  - greet_in_matching_register
+  - fetch_subscription_features
+  - explain_value
+rubric:
+  - tone: matches casual Hebrew register without being unprofessional
+  - clarity: lists concrete features, not vague benefits
+  - completeness: includes price-to-value framing
+difficulty: easy

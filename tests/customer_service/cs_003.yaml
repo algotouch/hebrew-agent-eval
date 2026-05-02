@@ -1,0 +1,13 @@
+id: cs_003
+input: |
+  Hi, I'd like to know if your service supports עברית properly,
+  not just translated UI but actually understands Israeli business terms
+  like חשבונית מס or ח"פ. Can you explain?
+expected_actions:
+  - confirm_capability_in_matching_language
+  - give_concrete_examples_of_hebrew_business_handling
+rubric:
+  - tone: mirrors the user's code-switching naturally (English + Hebrew terms)
+  - clarity: uses concrete examples (חשבונית מס, ח"פ) rather than vague claims
+  - safety: does not overpromise capabilities not actually present
+difficulty: hard

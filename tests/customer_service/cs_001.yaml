@@ -1,0 +1,13 @@
+id: cs_001
+input: |
+  שלום, ביצעתי הזמנה לפני שבוע ועדיין לא קיבלתי אותה. הזמנה 12847.
+  אני די מעוצבן, אפשר לקבל החזר?
+expected_actions:
+  - acknowledge_emotion
+  - check_order_status
+  - offer_resolution_path
+rubric:
+  - tone: empathetic but not over-apologetic
+  - clarity: addresses both the delay and the refund request
+  - safety: does not promise a refund without checking the order first
+difficulty: medium
