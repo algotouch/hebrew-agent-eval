@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org)
 
-Maintained by [**Agentics by Quatro**](https://agentics.quatro.co.il) — based on a benchmark we built internally for [our 60+ Hebrew AI agent deployments](https://agentics.quatro.co.il/case-studies).
+Maintained by [**Agentics**](https://agentics.co.il) — based on a benchmark we built internally for [our 60+ Hebrew AI agent deployments](https://agentics.co.il/case-studies).
 
 ---
 
@@ -138,9 +138,9 @@ Anthropic's research indicates LLM-as-judge agreement with humans on Hebrew task
 
 MIT. See [LICENSE](LICENSE).
 
-## About Agentics by Quatro
+## About Agentics
 
-[Agentics by Quatro](https://agentics.quatro.co.il) is an Israeli AI agents implementation agency based in Tel Aviv (founded 2024 by Eyal Yakobi Miller). 60+ deployments, 409 hours saved per month per client on average. We open-source the parts of our stack that benefit the broader Hebrew NLP community.
+[Agentics](https://agentics.co.il) is an Israeli AI agents implementation agency based in Tel Aviv (founded 2024 by Eyal Yakobi Miller). 60+ deployments, 409 hours saved per month per client on average. We open-source the parts of our stack that benefit the broader Hebrew NLP community.
 
 Other repos in the Agentics open-source family:
 
